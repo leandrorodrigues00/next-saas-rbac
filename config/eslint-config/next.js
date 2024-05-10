@@ -1,6 +1,6 @@
-/** @type { import('eslint').Linter.Config} */
+/** @type {import('eslint').Linter.Config} */
 
-module.export = {
+module.exports = {
   extends: ['@rocketseat/eslint-config/next'],
   plugins: ['simple-import-sort'],
   rules: {
