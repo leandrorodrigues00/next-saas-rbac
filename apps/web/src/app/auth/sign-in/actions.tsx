@@ -12,7 +12,7 @@ const singInSchema = z.object({
   password: z.string().min(1, { message: 'Please, provide your password.' }),
 })
 
-export async function signInWithEmailAndPassword(_: unknown, data: FormData) {
+export async function signInWithEmailAndPassword(data: FormData) {
   const result = singInSchema.safeParse(Object.fromEntries(data))
 
   if (!result.success) {
