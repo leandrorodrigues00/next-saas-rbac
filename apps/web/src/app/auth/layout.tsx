@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation'
 
-import { isAuthenticated } from '@/lib/session'
+import { isAuthenticated } from '@/auth/auth'
 
 type AuthLayoutProps = Readonly<{
   children: React.ReactNode
