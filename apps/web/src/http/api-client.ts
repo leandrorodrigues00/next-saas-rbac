@@ -1,5 +1,5 @@
 import { getCookie } from 'cookies-next'
-import { CookiesFn } from 'cookies-next/lib/types'
+import type { CookiesFn } from 'cookies-next/lib/types'
 import ky from 'ky'
 
 export const api = ky.create({
