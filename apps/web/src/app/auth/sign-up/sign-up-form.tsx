@@ -38,7 +38,7 @@ export function SignUpForm() {
           </Alert>
         )}
         <div className="space-y-1">
-          <Label htmlFor="name">Nome</Label>
+          <Label htmlFor="name">Name</Label>
           <Input name="name" id="name" />
 
           {errors?.name && (
