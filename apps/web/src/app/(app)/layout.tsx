@@ -4,17 +4,18 @@ import { isAuthenticated } from '@/auth/auth'
 
 type AppLayoutProps = Readonly<{
   children: React.ReactNode
-  teste: React.ReactNode
+  sheet: React.ReactNode
 }>
 
-export default async function AppLayout({ children, teste }: AppLayoutProps) {
+export default async function AppLayout({ children, sheet }: AppLayoutProps) {
   if (!isAuthenticated()) {
     redirect('/auth/sign-in')
   }
 
   return (
     <>
-      {children} {teste}
+      {children}
+      {sheet}
     </>
   )
 }
