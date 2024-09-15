@@ -17,7 +17,7 @@
 
 ## 👩‍💻 About the project
 
-This project is a full-stack SaaS platform designed for project management, emphasizing role-based access control (RBAC) powered by CASL. It allows users to create and manage projects efficiently while providing fine-grained control over permissions and access levels, ensuring secure collaboration across teams.
+This project is a full-stack SaaS platform designed for project management, emphasizing **role-based access control (RBAC)** powered by **CASL**. It allows users to create and manage projects efficiently while providing fine-grained control over permissions and access levels, ensuring secure collaboration across teams.
 
 The platform features a **Next.js 14** front-end, powered by **React 19**, utilizing Server Components and Server Actions for improved performance and scalability. On the back-end, it leverages Node.js, Fastify, and Prisma for high-performance data handling and seamless API communication. By adopting a monorepo architecture with TurboRepo, it streamlines the development process, allowing for faster builds and shared resources between the front-end and back-end.
 
