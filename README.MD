@@ -47,6 +47,7 @@
 - [postgreSQL](https://www.postgresql.org/) / [Docker](https://www.docker.com/)
 
 
+
 **Clone the project and access the folder**
 
 ```bash
@@ -67,8 +68,7 @@ $ pnpm i
 $ cp .env.example .env
 
 # Use Docker to start the database. If needed, adjust the settings in the `/docker-compose.yml` file:
-$  docker compose up
-$  docker compose start  
+$  docker compose up 
 
 # Navigate to the apps/api directory and run Prisma commands to set up the database schema and seed the database:
 $ cd apps/api 
