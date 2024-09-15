@@ -12,7 +12,7 @@
 <p align="center">
  
  
-<img alt="project preview" src="./apps/web/public/site-preview.png" width="75%"   >  
+<img alt="project preview" src="./apps/web/public/site-preview.png"     >  
 </p>
 
 ## 👩‍💻 About the project
