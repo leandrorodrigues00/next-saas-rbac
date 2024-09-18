@@ -112,6 +112,11 @@ Roles & permissions.
 - Only administrators and project authors may update/delete the project;
 - Members can leave their own organization;
 
+
+[Click here to check out the live application](https://next-saas-cs.vercel.app/) 😉
+
+**Important Notice**: This project is deployed with the backend hosted on Render and the frontend on Vercel. Since the backend is running on Render's free tier, the server may take up to 60 seconds to start after the first request. Render has a usage limit for free-tier projects, but running the project locally should not cause any issues.
+
 ## 🚀 Technologies
     
 - [casl](https://casl.js.org/v6/en/)
