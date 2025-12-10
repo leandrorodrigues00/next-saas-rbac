@@ -9,10 +9,10 @@
   <a href="#-license">License</a>
 </p>
 
-<p align="center">
+<p align="center"> 
  
  
-<img alt="project preview" src="./apps/web/public/site-preview.png"     >  
+<img alt="project preview" src="./frontend-gestao-marketplace/public/github-desktop.png" >  
 </p>
 
 ## 👩‍💻 About the project
